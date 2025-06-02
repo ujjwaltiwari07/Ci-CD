@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS = credentials('dockerhub-creds')
-        IMAGE_NAME = "ujjwal/ci-cd-demo"
+        IMAGE_NAME = "ujjwaltiwari07/ci-cd-demo"
         IMAGE_TAG = "latest"
     }
 
