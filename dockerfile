@@ -1,4 +1,4 @@
-# Use the lightweight Nginx Alpine image
+# Nginx image
 FROM nginx:alpine
 
 # Copy your app.html into the default nginx html folder as index.html
